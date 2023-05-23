@@ -314,7 +314,7 @@ const users = [
   // You know password for the user.
   { name: 'user', password: 'pwd' },
   // You don't know password for the admin.
-  { name: 'admin', password: Math.random().toString(32), canDelete: true },
+ // { name: 'admin', password: Math.random().toString(32), canDelete: true },
 ];
 
 let messages = [];
