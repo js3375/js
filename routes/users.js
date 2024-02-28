@@ -10,7 +10,7 @@ router.get('/', async (req, res, next) => {
   const mongoConnection = typeorm.getConnection('mysql')
   const repo = mongoConnection.getRepository("Users")
 
-  // hard-coded getting account id of 1
+hard-coded getting account id of 1
   // as a rpelacement to getting this from the session and such
   // (just imagine that we implemented auth, etc)
   const results = await repo.find({ id: 1 })
